@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import home from '@/components/home.vue'
 import index from '@/components/index.vue'
 import App from './App.vue'
-
+import "bulma/css/bulma.css";
 Vue.config.productionTip = false
 
 Vue.use(Router)
@@ -14,6 +14,7 @@ var router =  new Router({
       path: '/',
       component: index
     },
+
     {
       path: '/home',
       name: 'home',
