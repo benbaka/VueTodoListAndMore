@@ -1,8 +1,14 @@
 <template>
-  <div class="home">
-    <h1>Home</h1>
-    {{msg}}
+<div class="container">
+  <div class="columns">
+    <div class="column">
+      <div class="home">
+        <h1>Home</h1>
+        {{msg}}
+      </div>
+    </div>
   </div>
+</div>
 </template>
 
 <script>
