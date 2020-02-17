@@ -1,10 +1,12 @@
 <template>
 <div class="container">
+  <br><br>
   <div class="columns">
     <div class="column is-one-fifth">
       <home-sidebar> </home-sidebar>
     </div>
     <div class="column">
+
     <router-view/>
       </div>
     </div>
