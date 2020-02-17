@@ -1,17 +1,19 @@
 <template>
 <div class="container">
   <div class="columns">
+    <div class="column is-one-fifth">
+      <home-sidebar> </home-sidebar>
+    </div>
     <div class="column">
-      <div class="home">
-        <h1>Home</h1>
-        {{msg}}
+    <router-view/>
       </div>
     </div>
   </div>
-</div>
 </template>
 
 <script>
+
+import homeSidebar from './home_sidebar.vue'
 
 export default{
   name: 'home',
@@ -19,6 +21,9 @@ export default{
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components:{
+    homeSidebar
   }
 }
 </script>
