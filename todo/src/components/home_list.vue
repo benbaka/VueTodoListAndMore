@@ -6,7 +6,7 @@
   <header class="bd-header">
     <div class="bd-header-titles">
       <h1 class="title">Listing Posts</h1>
-      <p class="subtitle is-4">Posts by online users</p>
+      <p style="color: #7a7a7a" class="subtitle is-4">Posts by online users</p>
     </div>
 </header>
 </div>
